@@ -1,9 +1,9 @@
 const contractAddress = "0x5eCa85b8AC5F6B063ACa9E7A285023B2F2d22779"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Kiss PoP NFT Minitng Page!!";
+const welcome_h1 = "Welcome to the Kiss Pop Society NFT Mint Page!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Kiss Pop NFT Project is a decentralized, open-source project';
+const welcome_p = 'The Kiss Pop NFT Project is a representation of the vivid color that the feminine brings, to a black and white world';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
