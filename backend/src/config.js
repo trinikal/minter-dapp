@@ -14,12 +14,12 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 4950,
+    growEditionSizeTo: 5000,
     layersOrder: [
       { name: "Background" },
       { name: "InnerCircle" },
-      { name: "NoseR" },
       { name: "Head" },
+      { name: "noseR" },
       { name: "Bra" },
       { name: "Shirt" },
       { name: "Glasses" },
@@ -56,11 +56,11 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'KissPopSociety';
-const CONTRACT_SYMBOL = 'KPSV';
+const CONTRACT_SYMBOL = 'KPSNFT';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
 const TREASURY_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
-const MAX_SUPPLY = 4950; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.0001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
@@ -68,7 +68,7 @@ const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a singl
 const PUBLIC_MINT_START_DATE = "2022-04-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xF646b6a64a574B6330B0f435443a95b86A023855"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -99,12 +99,12 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "KPS",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://kisspopsociety.art",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0xF646b6a64a574B6330B0f435443a95b86A023855",
       share: 100,
     },
   ],
