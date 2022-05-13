@@ -14,11 +14,30 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5000,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
       { name: "InnerCircle" },
-      { name: "Head" },
+      { name: "Dark" },
+      { name: "noseR" },
+      { name: "Bra" },
+      { name: "Shirt" },
+      { name: "Glasses" },
+      { name: "Earings" },
+      { name: "Stick" },
+      { name: "Lolly" },
+      { name: "hair" },
+      { name: "OutterRing" },
+      { name: "nails" },
+      { name: "tat" },
+      { name: "rings" },
+    ],
+  },{
+    growEditionSizeTo: 20,
+    layersOrder: [
+      { name: "Background" },
+      { name: "InnerCircle" },
+      { name: "Fair" },
       { name: "noseR" },
       { name: "Bra" },
       { name: "Shirt" },
@@ -29,6 +48,29 @@ const layerConfigurations = [
       { name: "Hair" },
       { name: "OutterRing" },
       { name: "nails" },
+      { name: "tat" },
+      { name: "rings" },
+    ],
+  },{
+    growEditionSizeTo: 30,
+    layersOrder: [
+      { name: "Background" },
+      { name: "InnerCircle" },
+      { name: "Medium" },
+      { name: "rings" },
+      { name: "tat" },
+      { name: "noseR" },
+      { name: "Bra" },
+      { name: "Shirt" },
+      { name: "Glasses" },
+      { name: "Earings" },
+      { name: "Stick" },
+      { name: "Lolly" },
+      { name: "sombrero" },
+      { name: "OutterRing" },
+      { name: "nails" },
+      
+      
     ],
   },
 ];
