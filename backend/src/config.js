@@ -117,8 +117,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'KissPopSociety';
-const CONTRACT_SYMBOL = 'KPNFT';
+const CONTRACT_NAME = 'KPSARTNFT';
+const CONTRACT_SYMBOL = 'KPSNFT';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
 const TREASURY_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
