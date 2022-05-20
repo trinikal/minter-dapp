@@ -124,7 +124,7 @@ const OWNER_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
 const TREASURY_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.0001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-04-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
@@ -161,12 +161,12 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "KPS",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  symbol: "KPSNFT",
+  seller_fee_basis_points: 800, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://kisspopsociety.art",
   creators: [
     {
-      address: "0xF646b6a64a574B6330B0f435443a95b86A023855",
+      address: "Rme1zTYVMRzVfPahaQUJCLoUikLom5xa4tiu2ATm7AQ",
       share: 100,
     },
   ],
