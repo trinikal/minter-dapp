@@ -2,8 +2,8 @@ const contractAddress = "0xf64cB942C61A18eC05391f2bf89Cbd6dBF23eBE5"; //Replace 
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Kiss Pop Society NFT Mint Page";
-const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Kiss Pop NFT Project is a representation of the vivid color that the feminine brings, to a black and white world';
+const welcome_h2 = "Connect to MetaMask from your Desktop to Get Started";
+const welcome_p = 'You can only mint from your desktop at this time. Mobile minting is not yet supported.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
