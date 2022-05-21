@@ -1,5 +1,5 @@
 const contractAddress = "0x4614F7aeC39A8DE2273A9F799124e2B40aaE2390"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Kiss Pop Society NFT Mint Page";
 const welcome_h2 = "Connect to MetaMask from your Desktop to Get Started";
