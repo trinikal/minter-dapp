@@ -138,7 +138,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0xF646b6a64a574B6330B0f435443a95b86A023855","0x729cCdA45f6D035dd72fdF31cC51Bc057DFDA57a","0x9Ce906668e90032EEA40f7525544b3b81d32391B","0x92040656158dFCB73C4D43c560382BCc148d5b10","0xf64e77B65b4B7330b4af711e9Ef6EFb2Ee4Cfd13","0x1849cC2d28e4360c03Bdf362b4655e3B62F85C88"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "CONTRACT GOES HERE"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x4614F7aeC39A8DE2273A9F799124e2B40aaE2390"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
