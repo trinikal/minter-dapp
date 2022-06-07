@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "KissPopSociety.art";
-const description = "A collection that celebrates the beauty of women";
+const description = "A Community driven NFT that celebrates the technicolor of the feminine essence, in a black and white world";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -118,27 +118,27 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'KissPopSociety';
-const CONTRACT_SYMBOL = 'KPSNFT';
+const CONTRACT_SYMBOL = 'KPS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
 const TREASURY_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 100; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 500; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-06-06T04:00:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-06-04T02:00:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
-const ROYALTY_SHARE = 850; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xF646b6a64a574B6330B0f435443a95b86A023855"; // Address that will receive the royalty
+const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+const ROYALTY_ADDRESS = "0x008852393f01ebB3E224E726Dcc56cc43F2AB794"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x729cCdA45f6D035dd72fdF31cC51Bc057DFDA57a","0x9Ce906668e90032EEA40f7525544b3b81d32391B","0x92040656158dFCB73C4D43c560382BCc148d5b10","0xf64e77B65b4B7330b4af711e9Ef6EFb2Ee4Cfd13","0x1849cC2d28e4360c03Bdf362b4655e3B62F85C88","0xf64e77B65b4B7330b4af711e9Ef6EFb2Ee4Cfd13","0x1849cC2d28e4360c03Bdf362b4655e3B62F85C88","0x95d48bc92Ca61D54C7Bb5b168D1B8db51318EbdB","0x77140f52DbA9C8EA40740cd0fe4850Ea77e6B67a","0x06D2a437fC8a869aB1f231F5bEcf94559AA08857","0xB77E5574B42a09cb121dA2499f8E1e61896542b0","0xbFeED31Ac94632d4f2eEa1a38dF8cfB2B9E4186C","0x70e842450cd2A570592A47fEE1e55EA502CA6F52","0x79a58c37fdc66B51d4caBf973334e4Fc7c28A2A1","0xdC52fD1738eFDf84cDe83Ab06b0Bf8d2E6622d4d","0x959a6FA8b13ba63519412497502f833F38F33b25"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = null; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x4614F7aeC39A8DE2273A9F799124e2B40aaE2390"; // If you want to manually include it
+let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
@@ -161,7 +161,7 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "KPSNFT",
+  symbol: "KPS",
   seller_fee_basis_points: 800, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://kisspopsociety.art",
   creators: [
