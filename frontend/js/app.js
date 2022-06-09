@@ -240,7 +240,7 @@ async function loadInfo() {
   // MINT INPUT
   const mintIncrement = document.getElementById("mintIncrement");
   const mintDecrement = document.getElementById("mintDecrement");
-  const setQtyMax = 5;
+  const setQtyMax = document.getElementById("setQtyMax");
   const min = mintInput.attributes.min.value || false;
   const max = mintInput.attributes.max.value || false;
   mintDecrement.onclick = () => {
